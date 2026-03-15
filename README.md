@@ -1,71 +1,49 @@
-# Paradise Nursery 🌱
+# Paradise Nursery App
 
-Paradise Nursery is a simple React web application that allows users to browse houseplants and add them to a shopping cart.
-
-This project was created as part of a Coursera React assignment.
-
----
+Welcome to the Paradise Nursery App. This is a React-based shopping application that allows users to browse a variety of beautiful houseplants and add them to their shopping cart.
 
 ## Features
 
 - Landing page with information about Paradise Nursery
-- Plant shop page showing available plants
+- Plant shop page showing available plants organized by category
 - Add plants to the shopping cart
-- Increase or decrease item quantity
-- Remove items from the cart
-- Cart state managed using Redux
+- Increase or decrease item quantity within the cart
+- Remove items from the cart dynamically
+- Cart state managed seamlessly using Redux Toolkit
 
 ---
 
 ## Technologies Used
 
-- React
+- React (v19)
 - Redux Toolkit
-- React Redux
-- React Router
-- JavaScript
+- React Router DOM
 - CSS
 
 ---
 
-## Project Structure
+## Installation & Setup
 
-src/
-components/
-- AboutUs.jsx
-- ProductList.jsx
-- CartItem.jsx
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/paradise-nursery.git
+   ```
 
-redux/
-- CartSlice.js
-- store.js
+2. **Navigate to the project directory:**
+   ```bash
+   cd paradise-nursery
+   ```
 
-App.js
-App.css
-index.js
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
----
-
-## Installation
-
-1. Clone the repository
-
-git clone https://github.com/yourusername/paradise-nursery.git
-
-2. Navigate to the project folder
-
-cd paradise-nursery
-
-3. Install dependencies
-
-npm install
-
-4. Start the development server
-
-npm start
-
----
+4. **Start the development server:**
+   ```bash
+   npm start
+   ```
 
 ## Author
 
-Created as part of a Coursera React course project.
+Created as part of a Coursera peer-graded assignment to demonstrate frontend development with React.

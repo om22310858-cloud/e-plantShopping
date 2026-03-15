@@ -2,11 +2,13 @@ import React from "react";
 
 function AboutUs() {
   return (
-    <div>
-      <h2>About Paradise Nursery</h2>
+    <div className="about-us">
       <p>
-        Paradise Nursery is an online plant shop that offers a wide variety
-        of beautiful houseplants for your home and office.
+        Welcome to Paradise Nursery, your premier destination for high-quality houseplants.
+        Founded with a passion for bringing nature indoors, we strive to offer an extensive
+        variety of greenery that suits every lifestyle. Whether you are a seasoned plant enthusiast
+        or just beginning your indoor garden journey, Paradise Nursery provides the healthiest
+        plants and the resources you need to help them thrive.
       </p>
     </div>
   );
