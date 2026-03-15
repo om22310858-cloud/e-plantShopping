@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
-import AboutUs from "./components/AboutUs";
+import AboutUs from "./components/App";
 import ProductList from "./components/ProductList";
 import CartItem from "./components/CartItem";
 
